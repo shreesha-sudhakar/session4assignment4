@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.a{ 
+			float: left;
+  			overflow: hidden;
+			margin-left: 450px;
+			width: 50px;
+			height: 50px;
+			border-radius: 5px;
+			background: linear-gradient(to right,red,yellow);
+		}
+		.b{ 
+			position: absolute;
+			overflow: hidden;
+			margin-left: 500px;
+			width: 50px;
+			height: 50px;
+			border-radius: 5px;
+			background:radial-gradient(circle,red,yellow,blue);
+
+		}
+		.c{
+			position: absolute;
+			margin-left: 550px;
+			overflow: hidden;
+			width: 50px;
+			height: 50px;
+			border-radius: 5px;
+			background:radial-gradient(ellipse farthest-corner at 5px 5px,red,yellow);
+
+		}
+	</style>
+</head>
+<body>
+<div >
+<div class="a">box</div>
+<div class="b">box</div>
+<div class="c">box</div>
+</div>
+</body>
+</html>
